@@ -1708,3 +1708,40 @@ h5 {
         margin-left: 5px;
     }
 }
+
+
+.mid-card-contain {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    /* Center the items horizontally */
+    align-items: center;
+    /* Center the items vertically */
+    gap: 20px;
+}
+
+.inter-card {
+    padding: 5px;
+    width: calc(25% - 20px);
+    /* Adjust the card width as needed */
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.inter-card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    /* Ensure the image inside the card is also rounded */
+}
+
+.inter-card:hover{
+    scale: 0.9;
+    transition: 300ms ease-out;
+
+}
